@@ -48,3 +48,10 @@ create table usuarios
 	,Permissao bit default(0)
 );
 
+--crirar tabela de classificação
+create table Classificacao 
+(
+	IdClassificacao int primary key identity
+	,Classificacao Varchar(200) unique 
+);
+
