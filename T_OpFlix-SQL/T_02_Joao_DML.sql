@@ -64,3 +64,11 @@ insert into Categoria (Nome) values ('Terror')
 								   ,('Documentário')
 								   ,('Ficção Científica')
 
+
+
+
+--eu coloquei unique pq n sabia que ia poder cadastrar o mesmo titulo mais de uma vez ^-^
+Insert into Lancamentos (Titulo, Sipnose, TempoDeDuracao,IdCategoria,IdPlataforma,DataLancamento,IdClassificacao,IdTipo) values ('Guardiões da Galáxia','é legal','1:37:00',5,4,'2019-07-27',1,1)
+																														       ,('Guardiões da Galáxia','é legal','1:26:00',4,1,'2019-05-30',1,1)
+
+
